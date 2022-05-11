@@ -1,3 +1,4 @@
+import "../components/styles/About.css"
 import { useState, useEffect } from "react";
 
 function About(props) {
@@ -22,7 +23,7 @@ function About(props) {
     <div>
       <h2>{about.name}</h2>
       <h3>{about.email}</h3>
-      <p>{about.bio}</p>
+      <p className="bio">{about.bio}</p>
     </div>
   );
 
