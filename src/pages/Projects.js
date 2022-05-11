@@ -1,3 +1,4 @@
+import "../components/styles/Projects.css"
 import { useState, useEffect } from "react";
 
 function Projects(props) {
@@ -20,14 +21,13 @@ function Projects(props) {
   // define a function that will return the JSX needed once we get the data
   const loaded = () => {
     return projects.map((project) => (
-      <div key={project.name}>
+      <div className="Projects" key={project.name}>
         <h1>{project.name}</h1>
-        <img src={project.image} alt={"fotos"}/>
-        <a href={project.git}>
-          <button>Github</button>
+        <a className="LiveSiteButton" href={project.live}>
+        <img className="ProjectImage" src={project.image} alt={"fotos"}/>
         </a>
-        <a href={project.live}>
-          <button>live site</button>
+        <a className="GithubButton" href={project.git}>
+          <button>Github</button>
         </a>
       </div>
     ));

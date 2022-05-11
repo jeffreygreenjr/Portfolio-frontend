@@ -1,0 +1,20 @@
+.Projects {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    height: 25vh;
+    width: 25vw;
+}
+
+.GithubButton {
+    margin: 1%;
+}
+
+button {
+    background-color: silver;
+    border-radius: 10%;
+}

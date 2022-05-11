@@ -1,27 +1,30 @@
+import "../components/styles/Header.css"
 import { Link } from "react-router-dom";
+import { getSuggestedQuery } from "@testing-library/react";
 
 function Header(props) {
   //inline style for the nav tag
-  const navStyle = {
-    display: "flex",
-    justifyContent: "space-around",
-    border: "3px solid black",
-    padding: "8px",
-    width: "90%",
-    margin: "auto",
-  };
+//   const navStyle = {
+//     display: "flex",
+//     justifyContent: "space-around",
+//     backgroundColor: "grey",
+//     border: "3px solid black",
+//     padding: "8px",
+//     width: "90%",
+//     margin: "auto",
+//   };
 
   return (
     <header>
       <h1>My Portfolio Page</h1>
-      <nav style={navStyle}>
-        <Link to="/">
+      <nav className="NavBar">
+        <Link className="NavLink" to="/">
           <div>HOME</div>
         </Link>
-        <Link to="/about">
+        <Link className="NavLink" to="/about">
           <div>ABOUT</div>
         </Link>
-        <Link to="/projects">
+        <Link className="NavLink" to="/projects">
           <div>PROJECTS</div>
         </Link>
       </nav>
