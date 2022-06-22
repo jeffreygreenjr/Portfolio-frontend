@@ -1,15 +1,30 @@
 .NavBar {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    align-items: center;
     background-color: silver;
-    border-radius: 5%;
-    padding: 8px;
-    width: 90%;
-    margin: auto;
+    height: 75px;
+    width: 100vw;
     text-align: center;
 }
 
-.NavLink {
-    color: black;
+.LeftNav {
+    color: #f2f2f2;
+    text-align: center;
+    padding-left: 10px;
+}
+
+.RightNav {
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    padding-right: 10px;
+}
+
+.NavLinks {
+    color: #f2f2f2;
+    text-align: center;
     text-decoration: none;
+    font-size: 20px;
+    letter-spacing: 6px;
 }
