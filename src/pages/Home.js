@@ -1,8 +1,26 @@
+import "../styles/Home.css"
 import React from 'react';
+import { Typewriter, Cursor } from 'react-simple-typewriter';
 
 function Home(props) {
   return (
-    <h1>Welcome to Jeffrey Green's portfolio.</h1>
+    <div clasName="HomePageContainer">
+      <h1 className="Heading">Hello World, I'm Jeffrey!</h1>
+      <h2 className="SubHeading">
+        <span className="noun">I am a {""}
+        <Typewriter
+          words={['Software Engineer.', 'Web Developer.', 'Student.']}
+          loop={false}
+          cursor
+          cursorStyle='_'
+          typeSpeed={100}
+          deleteSpeed={50}
+          delaySpeed={1000}
+        />
+        <Cursor/>
+        </span>
+      </h2>
+    </div>
   )
 }
 

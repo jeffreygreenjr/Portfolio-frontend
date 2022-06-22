@@ -14,7 +14,7 @@ function App() {
   const URL = "https://jeffreygreen-portfolio.herokuapp.com/";
 
   return (
-    <div className="App">
+    <div className="HomePage">
       <Header />
       <Routes>
         <Route exact path="/" element={<Home />}/>

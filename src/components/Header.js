@@ -1,4 +1,4 @@
-import "../components/styles/Header.css"
+import "../styles/Header.css"
 import { Link } from "react-router-dom";
 import { getSuggestedQuery } from "@testing-library/react";
 
