@@ -14,13 +14,13 @@ function Header(props) {
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end fs-4">
             <Nav>
-              <Nav.Link href="#about">
+              <Nav.Link id="NavLink" href="#about">
                 ABOUT
               </Nav.Link>
-              <Nav.Link href="#projects">
+              <Nav.Link id="NavLink" href="#projects">
                 PROJECTS
               </Nav.Link>
-              <Nav.Link href="#resume">
+              <Nav.Link id="NavLink" href="#resume">
                 RESUME
               </Nav.Link>
             </Nav>

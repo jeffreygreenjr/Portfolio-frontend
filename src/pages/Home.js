@@ -4,10 +4,11 @@ import { Typewriter, Cursor } from 'react-simple-typewriter';
 
 // IMPORT COMPONENTS
 import About from '../components/About';
+import Projects from '../components/Projects';
 
 // IMPORT PAGES
 // import About from "./About";
-import Projects from "./Projects";
+// import Projects from "./Projects";
 
 function Home(props) {
 
@@ -35,6 +36,10 @@ function Home(props) {
 
       <div className="AboutContainer" id="about">
         <About />
+      </div>
+
+      <div className="ProjectsContainer" id="projects">
+        <Projects />
       </div>
   
     </div>

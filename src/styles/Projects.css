@@ -1,11 +1,35 @@
-.Projects {
+.ProjectsContainer {
+    background-color: #2a2d2d;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    color: white;
 }
 
-img {
+.ProjectPage {
+    width: 65%;
+}
+
+.ProjectsHeader {
+    font-size: 3em;
+    text-align: center;
+}
+
+.ProjectsSection {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.Project2 {
+    margin: 0 5%;
+}
+
+
+/* img {
     height: 25vh;
     width: 25vw;
 }
@@ -17,4 +41,4 @@ img {
 button {
     background-color: silver;
     border-radius: 10%;
-}
+} */
