@@ -1,22 +1,34 @@
 import "../styles/Header.css"
 import { Link } from "react-router-dom";
 import { getSuggestedQuery } from "@testing-library/react";
+import { Navbar, Nav, Container } from 'react-bootstrap';
 
 function Header(props) {
-  //inline style for the nav tag
-//   const navStyle = {
-//     display: "flex",
-//     justifyContent: "space-around",
-//     backgroundColor: "grey",
-//     border: "3px solid black",
-//     padding: "8px",
-//     width: "90%",
-//     margin: "auto",
-//   };
+
 
   return (
     <header>
-      <nav className="NavBar">
+      <Navbar fixed="top" collapseOnSelect expand="lg" bg="myColor" variant="dark">
+        <Container fluid>
+          <Navbar.Brand href="#home" className="justify-content-center fs-4">JEFFREY GREEN</Navbar.Brand>
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end fs-4">
+            <Nav>
+              <Nav.Link href="#about">
+                ABOUT
+              </Nav.Link>
+              <Nav.Link href="#projects">
+                PROJECTS
+              </Nav.Link>
+              <Nav.Link href="#resume">
+                RESUME
+              </Nav.Link>
+            </Nav>
+          </Navbar.Collapse>
+        </Container>
+    </Navbar>
+
+      {/* <nav className="NavBar">
         <div className="LeftNav">
           <Link className="NavLinks" to="/">
             JEFFREY GREEN
@@ -36,7 +48,7 @@ function Header(props) {
             RESUME
           </Link>
           </div>
-      </nav>
+      </nav> */}
     </header>
   );
 }
