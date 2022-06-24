@@ -10,7 +10,7 @@
 }
 
 .ProjectPage {
-    width: 65%;
+    width: 70%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -19,7 +19,7 @@
 .ProjectsHeader {
     font-size: 3em;
     text-align: center;
-    padding-bottom: 50px;
+    padding: 25px;
 }
 
 .ProjectsSection {
@@ -30,28 +30,50 @@
 
 .Project {
     font-size: 1.5em;
-    height: 625px;
-    width: 350px;
+    height: 550px;
+    width: 375px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
     background-color: white;
     color: #2a2d2d;
+    padding: 15px;
 }
 
-#Project1 {
+img {
+    height: 200px;
+    width: 300px;
+}
+
+h4 {
+    padding-top: 10px;
+}
+
+p {
+    font-size: .75em;
+    padding-top: 20px;
+}
+
+.ProjectBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 #Project2 {
-    margin: 0 5%;
+    margin: 0 75px;
 }
 
-
-img {
-    height: 25vh;
-    width: 15vw;
+.ProjectLinks {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #2a2d2d;
+    text-decoration: none;
+    padding: 0 25px;
+    
 }
 
 /* .GithubButton {
