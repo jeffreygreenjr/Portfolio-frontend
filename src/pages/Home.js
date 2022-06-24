@@ -5,6 +5,7 @@ import { Typewriter, Cursor } from 'react-simple-typewriter';
 // IMPORT COMPONENTS
 import About from '../components/About';
 import Projects from '../components/Projects';
+import Contact from '../components/Contact';
 
 // IMPORT PAGES
 // import About from "./About";
@@ -42,6 +43,9 @@ function Home(props) {
         <Projects />
       </div>
   
+      <div className="ContactContainer" id="contact">
+        <Contact />
+      </div>
     </div>
   )
 }

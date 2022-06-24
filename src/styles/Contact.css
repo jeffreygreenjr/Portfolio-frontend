@@ -1,0 +1,32 @@
+.ContactContainer {
+    background-color: white;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: rgb(0, 212, 0);
+}
+
+.ContactPage {
+    display: flex;
+    flex-direction: column;
+    width: 65%;
+}
+
+.ContactHeading {
+    font-size: 2.5em;
+    padding-bottom: 5px;
+}
+
+.ContactSubHeading {
+    font-size: 1.5em;
+    padding-bottom: 10px;
+}
+
+.ContactClosing {
+    font-size: 1.5em;
+    color: #2a2d2d;
+}

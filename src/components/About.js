@@ -27,8 +27,8 @@ function About() {
         <div className="AboutMisc">
             <h3 className="MiscHeading">FUN FACTS</h3>
             <p className="facts">I get paid to travel and take photos</p>
-            <p className="facts">Not much of a weight lifter, but I exercise daily playing a number of sports: Soccer, Hockey, Basketball, Brazilian Jiu Jitsu, etc</p>
-            <p className="facts">Live Music Live Music Live Music</p>
+            <p className="facts">Not much of a weight lifter, but I exercise daily playing a number of sports: Soccer, Hockey, Muay Thai, Brazilian Jiu Jitsu, etc</p>
+            <p className="facts">Music is my love language</p>
         </div>
         
     </div>
