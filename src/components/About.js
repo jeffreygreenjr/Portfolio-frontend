@@ -11,7 +11,7 @@ function About() {
             Full-Stack Engineer with a passion for building and maintaining applications with design and user experience at the forefront.
         </div>
         <div className="SkillsSection">
-            <h3>LANGUAGES & FRAMEWORKS</h3>
+            <h3 className="SkillsHeading">LANGUAGES & FRAMEWORKS</h3>
             <div className="SkillsLogoContainer">
                 <img className="SkillsLogo" src="https://i.imgur.com/VXfU8X6.png" alt="html"/>
                 <img className="SkillsLogo" src="https://i.imgur.com/0S92Td7.png" alt="css"/>
@@ -23,6 +23,12 @@ function About() {
                 <img className="SkillsLogo" src="https://i.imgur.com/9hbw0pb.png" alt="node"/>
                 <img className="SkillsLogo" src="https://i.imgur.com/HJQwz8j.png" alt="react"/>
             </div>
+        </div>
+        <div className="AboutMisc">
+            <h3 className="MiscHeading">FUN FACTS</h3>
+            <p className="facts">I get paid to travel and take photos</p>
+            <p className="facts">Not much of a weight lifter, but I exercise daily playing a number of sports: Soccer, Hockey, Basketball, Brazilian Jiu Jitsu, etc</p>
+            <p className="facts">Live Music Live Music Live Music</p>
         </div>
         
     </div>

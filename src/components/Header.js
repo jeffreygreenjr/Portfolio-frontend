@@ -20,6 +20,9 @@ function Header(props) {
               <Nav.Link id="NavLink" href="#projects">
                 PROJECTS
               </Nav.Link>
+              <Nav.Link id="NavLink" href="#contact">
+                CONTACT
+              </Nav.Link>
               <Nav.Link id="NavLink" href="#resume">
                 RESUME
               </Nav.Link>

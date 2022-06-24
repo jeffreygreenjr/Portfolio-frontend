@@ -6,29 +6,44 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    text-align: center;
     color: rgb(0, 212, 0);
 }
 
 .AboutContent {
+    display: flex;
+    flex-direction: column;
     width: 65%;
 }
 
 .AboutBio {
-    font-size: 2em;
-    text-align: center;
-    padding-bottom: 25px;
+    font-size: 2.5em;
+    padding-bottom: 50px;
 }
 
 .SkillsSection {
     color: #2a2d2d;
-    font-size: 2em;
-    text-align: center;
+    padding-top: 50px;
+}
+
+.SkillsHeading {
+    font-size: 2.25em;
 }
 
 .SkillsLogo {
-    height: 60px;
-    width: 60px;
+    height: 75px;
+    width: 75px;
     padding: 10px;
+}
+
+.MiscHeading {
+    color: #2a2d2d;
+    font-size: 2.25em;
+    padding-top: 50px;
+}
+
+.facts {
+    font-size: 1.25em;
 }
 
 #netlify {
