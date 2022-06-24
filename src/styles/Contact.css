@@ -23,10 +23,17 @@
 
 .ContactSubHeading {
     font-size: 1.5em;
-    padding-bottom: 10px;
+    padding-bottom: 25px;
+}
+
+.ContactLinks {
+    color: #2a2d2d;
+    padding: 10px;
+    text-decoration: none;
 }
 
 .ContactClosing {
-    font-size: 1.5em;
+    font-size: 2em;
     color: #2a2d2d;
+    padding-top: 100px;
 }
