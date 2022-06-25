@@ -1,9 +1,28 @@
 .bg-myColor {
-    background-color: rgb(0, 212, 0);
+    /* background-color: #1fb100; */
+    background: linear-gradient(-45deg, #006A6A 0%, #00884C 13%, #00A72D 25%, #00C50F 38%, #00D400 50%, #0FC500 62%, #2DA700 75%, #4C8800 87%, #6A6A00 100%);
+    background-size: 400% 400%;
+    animation: animate 7.5s ease-in-out infinite;
+}
+
+@keyframes animate{
+    0%{
+      background-position: 0 50%;
+    }
+    50%{
+      background-position: 100% 50%;
+    }
+    100%{
+      background-position: 0 50%;
+    }
 }
 
 #NavLink {
     color: #2a2d2d;
+}
+
+#NavLink:hover {
+    color: white;
 }
 
 /* .NavBar {

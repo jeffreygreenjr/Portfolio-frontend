@@ -7,7 +7,8 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    color: rgb(0, 212, 0);
+    color: #1fb100;
+    padding-top: 60px;
 }
 
 .AboutContent {
@@ -17,17 +18,17 @@
 }
 
 .AboutBio {
-    font-size: 2.5em;
-    padding-bottom: 50px;
+    font-size: 2.25vw;
+    padding-bottom: 25px;
 }
 
 .SkillsSection {
     color: #2a2d2d;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .SkillsHeading {
-    font-size: 2.25em;
+    font-size: 2vw;
 }
 
 .SkillsLogo {
@@ -38,12 +39,13 @@
 
 .MiscHeading {
     color: #2a2d2d;
-    font-size: 2.25em;
-    padding-top: 50px;
+    font-size: 2vw;
+    padding-top: 35px;
 }
 
 .facts {
-    font-size: 1.25em;
+    font-size: 1.4vw;
+    padding: 2.5px;
 }
 
 #netlify {
@@ -56,4 +58,42 @@
 
 .skills {
     margin: auto 10%;
+}
+
+@media screen and (max-width: 600px) {
+
+    .AboutContainer {
+        padding-top: 25px;
+    }
+
+    .AboutContent {
+        width: 90%;
+    }
+
+    .AboutBio {
+        font-size: 1.5em;
+        padding-bottom: 0px;
+    }
+
+    .SkillsHeading {
+        font-size: 1.25em;
+    }
+
+   .SkillsLogo {
+    height: 60px;
+    width: 60px;
+   }
+
+   .MiscHeading {
+        color: #2a2d2d;
+        font-size: 1.25em;
+        padding-top: 50px;
+    }
+
+    .facts {
+        font-size: 1em;
+        padding-bottom: 0px;
+        margin-bottom: 0px;
+    }
+    
 }
