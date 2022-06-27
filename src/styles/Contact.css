@@ -36,10 +36,15 @@
     color: #1fb100;
 }
 
+.PageBreak {
+    color: #c0c0c0;
+    margin-top: 50px;
+}
+
 .ContactClosing {
-    font-size: 1.5vw;
+    font-size: 2.5vw;
     color: #2a2d2d;
-    padding-top: 100px;
+    margin-top: 50px;
 }
 
 @media screen and (max-width: 600px) {

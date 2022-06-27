@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
 .bg-myColor {
     /* background-color: #1fb100; */
     background: linear-gradient(-45deg, #006A6A 0%, #00884C 13%, #00A72D 25%, #00C50F 38%, #00D400 50%, #0FC500 62%, #2DA700 75%, #4C8800 87%, #6A6A00 100%);
@@ -15,6 +17,10 @@
     100%{
       background-position: 0 50%;
     }
+}
+
+#homelink {
+    font-family: 'Pacifico', cursive;
 }
 
 #NavLink {

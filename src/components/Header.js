@@ -2,6 +2,7 @@ import "../styles/Header.css"
 import { Link } from "react-router-dom";
 import { getSuggestedQuery } from "@testing-library/react";
 import { Navbar, Nav, Container } from 'react-bootstrap';
+import Resume from "../assets/Jeffrey_Green_Resume.pdf"
 
 function Header(props) {
 
@@ -10,7 +11,7 @@ function Header(props) {
     <header>
       <Navbar fixed="top" collapseOnSelect expand="lg" bg="myColor" variant="dark">
         <Container fluid>
-          <Navbar.Brand href="#home" className="justify-content-center fs-4">JEFFREY GREEN</Navbar.Brand>
+          <Navbar.Brand href="#home" className="justify-content-center fs-4" id="homelink">Jeffrey Green</Navbar.Brand>
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="responsive-navbar-nav" className="justify-content-end fs-4">
             <Nav>
@@ -23,7 +24,7 @@ function Header(props) {
               <Nav.Link id="NavLink" href="#contact">
                 CONTACT
               </Nav.Link>
-              <Nav.Link id="NavLink" href="#resume">
+              <Nav.Link id="NavLink" href={Resume} target="_blank">
                 RESUME
               </Nav.Link>
             </Nav>

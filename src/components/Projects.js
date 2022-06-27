@@ -54,7 +54,7 @@ function Projects() {
 
                     <Carousel.Caption>
                         <h3 id="Title">Cars Collector</h3>
-                        <p id="projectinfo">Built a full-stack web application with python servers and PostgreSQL databases with the full-featured framework Django styled with Bulma, a CSS framework.</p>
+                        <p id="projectinfo">Built a full-stack web application with python servers and PostgreSQL databases with frameworks Django and Bulma.</p>
                     </Carousel.Caption>
                     <Carousel.Caption id="ProjectLinks">
                         <a className="ProjectLinks" href="https://jeffreygreen-marvel-react-api.netlify.app"><MdOpenInNew size={20}/></a>
