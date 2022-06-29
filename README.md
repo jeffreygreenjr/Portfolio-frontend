@@ -22,4 +22,4 @@ As far as future implementation, I'd like to add a testimonial section where I'l
 
 #### Support
 
-For any questions regarding this project, please email me directly at mrjeffreygreen@gmail.com
+For any questions regarding this build, please email me directly at mrjeffreygreen@gmail.com
