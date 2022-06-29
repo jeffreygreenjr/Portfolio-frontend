@@ -1,6 +1,6 @@
 # Portfolio Website
 
-After completion of my Software Engineering Immersive Program, I decided to create my very own portfolio website using React. This portfolio website will include any/all materials needed by Recruiters, Hiring Managers, and/or fellow engineers/developers. As with all of my applications, this is mobile friendly so feel free to enjoy this on a computer, tablet, or phone.
+After completion of my Software Engineering Immersive Program, I decided to create my very own portfolio website using React. This portfolio will include any/all materials needed by Recruiters, Hiring Managers, and/or fellow engineers/developers. As with all of my applications, this is mobile friendly so feel free to enjoy this on a computer, tablet, or phone.
 ## Screenshots
 
 ![Screen Shot 2022-06-28 at 11 11 37 PM](https://user-images.githubusercontent.com/102068506/176350238-6662cb01-7dac-42bb-bd86-f358738bcb45.jpg)
