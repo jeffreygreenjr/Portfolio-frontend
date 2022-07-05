@@ -11,7 +11,8 @@ function Contact() {
             LET'S COLLABORATE!
         </div>
         <div className="ContactSubHeading">
-            I'd love to hear from you. Shoot me an email or follow me on LinkedIn and GitHub.
+            I'd love to hear from you.<br/>
+            Shoot me an email or follow me on LinkedIn and GitHub.
         </div>
         <div className="ContactForm">
             <a className="ContactLinks" href="mailto:jeffreygreen.dev@gmail.com"><MdOutlineMail size={35}/></a>
