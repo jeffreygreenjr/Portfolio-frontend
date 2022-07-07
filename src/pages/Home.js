@@ -18,11 +18,13 @@ function Home(props) {
     <div clasName="HomePage">
 
       <div className="HomePageContainer" id="home">
-        <h1 className="Heading">Hello World, I'm Jeffrey!</h1>
+        <h1 className="Heading">Hello World,<br/>
+          My Name's Jeffrey Green!
+          </h1>
         <h2 className="SubHeading">
         <span className="noun">I am a {""}
         <Typewriter
-          words={['Software Engineer.', 'Web Developer.', 'Student.']}
+          words={['Software Engineer.', 'Web Developer.', 'Learner.']}
           loop={false}
           cursor
           cursorStyle='_'
