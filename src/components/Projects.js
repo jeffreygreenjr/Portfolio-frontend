@@ -91,7 +91,7 @@ function Projects() {
             <div className="ProjectHeader">
                 <img src="https://user-images.githubusercontent.com/102068506/171906132-bda8a863-841e-40b8-b486-3d3e6e2da295.jpg" alt="carsscreenshot"/>
                 <h4>CAR COLLECTOR APP</h4>
-                <p>Built a full-stack web application with python servers and PostgreSQL databases with the full-featured framework Django styled with Bulma, a CSS framework.</p>
+                <p>Built a full-stack web application with Python servers and PostgreSQL databases with the full-featured framework Django styled with Bulma, a CSS framework.</p>
             </div>
                 <div className="ProjectLinks">
                     <a className="ProjectLinks" href="https://jeffreygreen-marvel-react-api.netlify.app"><MdOpenInNew /></a>
