@@ -14,3 +14,6 @@
 .SubHeading {
   font-size: 2em;
 } */
+html {
+  scroll-behavior: smooth;
+}
