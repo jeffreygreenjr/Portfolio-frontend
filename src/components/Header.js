@@ -2,7 +2,7 @@ import "../styles/Header.css"
 import { Link } from "react-router-dom";
 import { getSuggestedQuery } from "@testing-library/react";
 import { Navbar, Nav, Container } from 'react-bootstrap';
-import Resume from "../assets/Jeffrey_Green_2023_Resume.pdf"
+import Resume from "../assets/Jeffrey_Green_2024_Resume.pdf"
 
 function Header(props) {
 
